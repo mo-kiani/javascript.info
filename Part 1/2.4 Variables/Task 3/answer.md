@@ -1,12 +1,14 @@
-# Desired Code
+# Task 1.2.4.3
+
+
+### Desired Code
 
 ```
 const BIRTHDAY = '18.04.1982';
 const age = someCode(BIRTHDAY);
 ```
 
-
-# Explanation
+### Explanation
 
 Your birthday is a hardcoded value that is universally constant, so using the
 uppercase variable naming convention is appropriate. 
