@@ -1,4 +1,4 @@
-// Task 1.2.7.4
+// Task 1.2.8.4
 
 let a = prompt("First number?", 1);
 let b = prompt("Second number?", 2);
