@@ -16,3 +16,11 @@ The fourth number is the number of the task within the given tutorial.
 For example, `1.2.15.3` represents `The JavaScript Language -> JavaScript 
 Fundamentals -> Functions -> Task "Function min(a, b)"`
 
+### File/Folder Naming/Numbering Convenvtion
+If numbers are used to indicate order of files/folders, the names within the 
+same sequence should share the same prefix before the number. Names that share a
+sequence should use the minimal amount of zero-padding required to make all 
+numbers take uniform space. This is to visually align numbers in a sequence,
+avoid unnecessary padding, and to ensure that lexicographic ordering sorts 
+numbered files/folders appropriately.
+
