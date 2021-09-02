@@ -19,6 +19,12 @@ arguments and the `new` keyword is being used. Alternatively you can put this
 code further down after that detail has been mentioned (in the block "Omitting
 Parentheses").
 
+### Function object, NFE
+Could mention that the first time a name is bound to a function, either at
+definition time or contextually on first assignment, then that remains its name
+and also only the first name is used if the function is reassigned to a new
+variable with a different name.
+
 
 # Incorrect statements
 
