@@ -32,6 +32,15 @@ you are only going to invoke once. They are also useful for one-time creation
 of complex objects using imperative approach rather than declarative by
 preprending new to a self invoking function.
 
+### Function object, NFE
+##### Statement
+This is a particular case of so-called polymorphism - treating arguments
+differently depending on their type or, in our case depending on the length.
+##### Issue
+Polymorphism refers to when multiple types share an interface and are used the
+same, which is exactly the opposite of treating them differently depending on
+their type.
+
 
 # Incorrect code/solutions
 
