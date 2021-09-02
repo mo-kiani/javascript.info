@@ -56,3 +56,7 @@ error and I think that's because function declarations actually hoist up to only
 their current block in terms of value, but are declared for the entire function
 scope where they are declared.
 
+### Task 1.6.6.1 Set and decrease for counter
+Wouldn't it make more send to use prefix rather than postfix for increments and
+decremenets?
+
