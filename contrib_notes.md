@@ -25,6 +25,12 @@ definition time or contextually on first assignment, then that remains its name
 and also only the first name is used if the function is reassigned to a new
 variable with a different name.
 
+### Property flags and descriptors
+##### Issue
+If the property exists, defineProperty updates its flags.
+##### Solution
+If the property exists, defineProperty updates its flags and value.
+
 
 # Incorrect statements
 
