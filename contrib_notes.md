@@ -47,6 +47,10 @@ stick to Map or MAYBE pure dictionary objects?
 Also, in Task 1, the given solution changes an existing line, which is confusing
 since the problem statement seems to indicate that your code should come after.
 
+### Class basic syntax
+Summary missing bound field syntax and the fact that class fields are copied
+into each object rather than use the prototype system.
+
 
 # Incorrect statements
 
