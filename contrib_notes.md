@@ -35,6 +35,15 @@ If the property exists, defineProperty updates its flags and value.
 One solution that may be worth adding is a constructor based approach,
 especially since it can prime the reader for the coming chapters on classes.
 
+### Prototype methods, objects without \_\_proto\_\_
+Never really mentions why `__proto__` was replaced by `get/setPrototypeOf`.
+Also, user generated keys for objects is not just an issue with `__proto__` but
+really anything that the object may already contain in itself or in it's 
+inheritance like `toString`, as well as any existing setter that rejects some 
+values, so I'm a bit confused about the point of specifically bringing up the 
+issue here. Isn't user-generated keys just a REALLY BAD idea anyways, and just
+stick to Map or MAYBE pure dictionary objects?
+
 
 # Incorrect statements
 
