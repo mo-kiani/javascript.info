@@ -44,6 +44,9 @@ values, so I'm a bit confused about the point of specifically bringing up the
 issue here. Isn't user-generated keys just a REALLY BAD idea anyways, and just
 stick to Map or MAYBE pure dictionary objects?
 
+Also, in Task 1, the given solution changes an existing line, which is confusing
+since the problem statement seems to indicate that your code should come after.
+
 
 # Incorrect statements
 
