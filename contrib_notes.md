@@ -31,6 +31,10 @@ If the property exists, defineProperty updates its flags.
 ##### Solution
 If the property exists, defineProperty updates its flags and value.
 
+### Prototypal inheritance, Task 4
+One solution that may be worth adding is a constructor based approach,
+especially since it can prime the reader for the coming chapters on classes.
+
 
 # Incorrect statements
 
