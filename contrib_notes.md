@@ -76,6 +76,9 @@ Polymorphism refers to when multiple types share an interface and are used the
 same, which is exactly the opposite of treating them differently depending on
 their type.
 
+### Class checking: "instanceof"
+Again, I think the use of the term Polymorphism is incorrect, but I'm not sure.
+
 
 # Incorrect code/solutions
 
