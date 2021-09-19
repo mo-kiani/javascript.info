@@ -51,6 +51,9 @@ since the problem statement seems to indicate that your code should come after.
 Summary missing bound field syntax and the fact that class fields are copied
 into each object rather than use the prototype system.
 
+### Mixins
+Could we use Symbols to reduce probability of namespace conflict?
+
 
 # Incorrect statements
 
