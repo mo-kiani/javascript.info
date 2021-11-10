@@ -25,6 +25,24 @@ definition time or contextually on first assignment, then that remains its name
 and also only the first name is used if the function is reassigned to a new
 variable with a different name.
 
+Also, I think my solution for Task 2 (1.6.6.2) is superior as follows:  
+
+*The existing solution will have this behaviour, which seems undesirable*
+```
+x = sum(5)
++x(3)  // 8
++x(3)  // 11
++x(3)  // 14
+```
+*My solution will have the following behaviour, which seems more desirable*
+```
+x = sum(5)
++x(3)  // 8
++x(3)  // 8
++x(3)  // 8
+```
+*This is because my solution does not change the closure variable*
+
 ### Property flags and descriptors
 ##### Issue
 If the property exists, defineProperty updates its flags.
